@@ -1,5 +1,9 @@
 # Sreevardhan Gullipalli (Sree)
-sreevardhang@gmail.com • (312) 721-6147 • Lancaster, PA • linkedin.com/in/sreevardhang
+#### **sreevardhang@gmail.com | (312) 721-6147 | Lancaster, PA | linkedin.com/in/sreevardhang**
+
+## **Summary**
+
+Experienced Mechanical Design Engineer with a strong background in product lifecycle management, design engineering, and client collaboration. Proven ability to lead cross-functional teams and optimize engineering processes, delivering innovative solutions for complex manufacturing challenges.
 
 ## **WORK EXPERIENCE**
 
@@ -37,4 +41,6 @@ sreevardhang@gmail.com • (312) 721-6147 • Lancaster, PA • linkedin.com/in/
 
 ## **SKILLS**
 
-Solidworks 2024, Solidworks PDM, ERP Systems (JDE, ARAS), FEA, GD&T, DFM & DFA, Sheet Metal Design, CFD (Basic fluid flow, thermal analysis), Cross-functional collaboration, Project Management, Design & Process Optimization
+* **CAD:** Solidworks 2024, Solidworks PDM, Autodesk Inventor, Siemens NX CAD, PTC Creo
+* **FEA:** ANSYS, steady state thermal analysis, load and deflection analysis
+* **Engineering:** ERP Systems (JDE, ARAS), GD&T, DFM & DFA, Sheet Metal Design, Design & Process Optimization

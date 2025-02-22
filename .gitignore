@@ -1,0 +1,22 @@
+# LaTeX auxiliary files
+*.aux
+*.log
+*.out
+*.toc
+*.bbl
+*.blg
+*.fdb_latexmk
+*.fls
+*.synctex.gz
+*.synctex(busy)
+*.dvi
+*.xdv
+
+# Editor-specific files (optional, but good practice)
+*.bak
+*.swp
+*~
+
+# OS-Generated files
+Thumbs.db
+.DS_Store

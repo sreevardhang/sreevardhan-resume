@@ -1,0 +1,114 @@
+\documentclass[a4paper]{article}
+    \usepackage{fullpage}
+    \usepackage{amsmath}
+    \usepackage{amssymb}
+    \usepackage{textcomp}
+    \usepackage[utf8]{inputenc}
+    \usepackage[T1]{fontenc}
+    \usepackage[margin=1in]{geometry}
+    \textheight=10in
+    \pagestyle{empty}
+    \raggedright
+
+    %\renewcommand{\encodingdefault}{cg}
+%\renewcommand{\rmdefault}{lgrcmr}
+
+\def\bull{\vrule height 0.8ex width .7ex depth -.1ex }
+
+% DEFINITIONS FOR RESUME %%%%%%%%%%%%%%%%%%%%%%%
+
+\newcommand{\area} [2] {
+    \vspace*{-9pt}
+    \begin{verse}
+        \textbf{#1}   #2
+    \end{verse}
+}
+
+\newcommand{\lineunder} {
+    \vspace*{-8pt} \\
+    \hspace*{-18pt} \hrulefill \\
+}
+
+\newcommand{\header} [1] {
+    {\hspace*{-18pt}\vspace*{6pt} \textsc{#1}}
+    \vspace*{-6pt} \lineunder
+}
+
+\newcommand{\employer} [3] {
+    { \textbf{#1} (#2)\\ \underline{\textbf{\emph{#3}}}\\  }
+}
+
+\newcommand{\contact} [3] {
+    \vspace*{-10pt}
+    \begin{center}
+        {\Huge \scshape {#1}}\\
+        #2 \\ #3
+    \end{center}
+    \vspace*{-8pt}
+}
+
+\newenvironment{achievements}{
+    \begin{list}
+        {$\bullet$}{\topsep 0pt \itemsep -2pt}}{\vspace*{4pt}
+    \end{list}
+}
+
+\newcommand{\schoolwithcourses} [4] {
+    \textbf{#1} #2 $\bullet$ #3\\
+    #4 \\
+    \vspace*{5pt}
+}
+
+\newcommand{\school} [4] {
+    \textbf{#1} #2 $\bullet$ #3\\
+    #4 \\
+}
+% END RESUME DEFINITIONS %%%%%%%%%%%%%%%%%%%%%%%
+
+    \begin{document}
+\vspace*{-40pt}
+
+    
+
+%==== Profile ====%
+\vspace*{-10pt}
+\begin{center}
+	{\Huge \scshape {Sreevardhan Gullipalli}}\\
+	Chicago, IL $\cdot$ sreevardhang@gmail.com $\cdot$ 3127216147\\
+\end{center}
+
+%==== Education ====%
+\header{Education}
+\textbf{University of Illinois at Chicago}\hfill Chicago, IL\\
+MS Mechanical Engineering \textit{GPA: 3.3} \hfill Aug 2018 - May 2020\\
+\vspace{2mm}
+\textbf{CMR College of Engineering and Technology}\hfill India\\
+BTech Mechanical Engineering \hfill Sept 2013 - June 2017\\
+\vspace{2mm}
+
+
+
+\header{Skills}
+\begin{tabular}{ l l }
+	Misc: & CAE, Solidworks, ANSYS, Autodesk Inventor, AutoCAD, PTC Creo, CATIA V5, GD\&T \\
+\end{tabular}
+\vspace{2mm}
+
+\header{Projects}
+{\textbf{Academic Mini Project - Design and analysis of a Pneumatic Forklift, CMRCET, 2016}}\\
+Designed a rudimentary model of a pneumatic forklift using Creo Parametric 3.0. Performed static analysis of said model with standard load conditions using ANSYS 16\\
+\vspace*{2mm}
+{\textbf{Final Academic Project - Performance analysis of Coated Single Point Cutting Tools in Turning Operation, CMRCET, 2017}}\\
+The objective was to analyze cutting parameters like depth of cut, feed rate and cutting speed of a single point cutting tool during turning operation. Three tools were used: a CVD coated carbide insert, Nickel coated carbide insert and an uncoated carbide insert. Effect of changes to cutting parameters and tool coating was determined by measuring the surface roughness\\
+\vspace*{2mm}
+{\textbf{CAD Design Project - Suspension system of an All Terrain Vehicle, UIC, 2019}}\\
+A group project involving the CAD modelling of the suspension system of an all terrain vehicle. Focus of the project was the design of the wheel hub. Auxiliary components such as knuckle, shock absorber, wishbones, brake calliper and disk were modelled as well. ANSYS topology optimization was used to improve the wheel hub design by removing unnecessary material.\\
+\vspace*{2mm}
+
+\header{CO-CURRICULAR ACTIVITIES}
+\textbf{Society of Automotive Engineers Collegiate Chapter — CMRCET, 2014 – 2017} \hfill Founding Member and Treasurer\\
+Scaled up to the final rounds in a nation-wide dune buggy design competition ’Baja Student India’ in 2016 In charge of the electrical systems for the dune buggy Organized various technical events to promote club enrollment and participation\\
+\vspace*{2mm}
+
+\ 
+\end{document}
